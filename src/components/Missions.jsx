@@ -3,9 +3,10 @@ import Title from './Title';
 
 class Missions extends React.Component {
   render() {
+    const totalMissions = 'Missões';
     return (
       <div data-testid="missions">
-        <Title />
+        <Title headline={ totalMissions } />
       </div>
     );
   }
